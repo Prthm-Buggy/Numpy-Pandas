@@ -1,0 +1,9 @@
+# Optionally create a virtual environment
+python -m venv scrapy_env
+source scrapy_env/bin/activate  # On Windows: scrapy_env\Scripts\activate
+
+# Install Scrapy
+pip install scrapy
+
+# Verify
+scrapy version
